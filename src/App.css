@@ -3,4 +3,60 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins' sans-serif;
+  
+}
+
+body{
+  background-color: aliceblue;
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.app_dropdown {
+  background-color: white;
+}
+.left{
+  flex: 0.9;
+}
+.app_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  
+}
+.app_header h2{
+  color: rgb(21, 182, 16);
+  font-family: 'Poppins' sans-serif;
+  
+}
+.app_country_stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  
+}
+.right .MuiCardContent-root{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.app_graph{
+  flex-grow: 1;
+}
+.app_graphTitle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:990px){
+  .app{
+    flex-direction: column;
+  }
 }

@@ -1,0 +1,37 @@
+.card-info{
+    flex: 1;
+    cursor: pointer;
+}
+.card-info:not(:last-child){
+    margin-right: 15px;
+}
+.card-info-cases{
+    color: rgb(8, 8, 8);
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.card-info-total{
+    color: rgb(183, 190, 187);
+    font-size: 0.8rem !important; 
+  margin-top: 15px !important;
+
+}
+.card-info_selected{
+    border-top: 10px solid rgb(175, 9, 111);
+}
+.red{
+    border-top: 10px solid rgb(236, 16, 16);
+}
+.orange{
+    border-top: 10px solid rgb(223, 88, 10);
+}
+
+
+@media (max-width :990px){
+    .card-info{
+        flex: 1;
+    }
+    .card-info:not(:last-child){
+        margin-right: 15px;
+    }
+}
